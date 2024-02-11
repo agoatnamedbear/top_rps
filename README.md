@@ -1,6 +1,6 @@
 # Requirements
 
-1. ## Get computer choice - 
+1. ## getComputerChoice()
     * Get random number
     * Assign random number to rock, paper or scissors
   
