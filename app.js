@@ -9,7 +9,7 @@ const getComputerChoice = () => {
     }
 }
 
-let comuterChoice = getComputerChoice(;)
+let computerChoice = getComputerChoice(;)
 
 let playerChoice = prompt('Rock Paper or Scissors?').toLowerCase();
 
