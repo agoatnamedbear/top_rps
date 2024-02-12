@@ -9,4 +9,4 @@ const getComputerChoice = () => {
     }
 }
 
-getComputerChoice();
+let playerChoice = prompt('Rock Paper or Scissors?').toLowerCase();
