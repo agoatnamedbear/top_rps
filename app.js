@@ -9,7 +9,23 @@ const getComputerChoice = () => {
     }
 }
 
-let computerChoice = getComputerChoice(;)
 
-let playerChoice = prompt('Rock Paper or Scissors?').toLowerCase();
+const playRound = (playerChoice, computerChoice) => {
+    computerChoice = getComputerChoice();
 
+    playerChoice = prompt('Rock Paper or Scissors?').toLowerCase();
+
+    if (playerChoice === computerChoice) {
+        console.log("It's a Tie!");
+    }
+
+    else if ((playerChoice === 'rock' && computerChoice === 'scissors') ||
+    (playerChoice === 'paper' && computerChoice === 'rock') ||
+    (playerChoice === 'scissors' && computerChoice === 'paper')) {
+        console.log(`Player Wins! ${playerChoice} beats ${computerChoice}`);
+    }
+
+    else {console.log(`Computer Wins! ${computerChoice} beats ${playerChoice}`);}
+}
+
+playRound();
