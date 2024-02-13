@@ -15,7 +15,11 @@ const playRound = (playerChoice, computerChoice) => {
 
     playerChoice = prompt('Rock Paper or Scissors?').toLowerCase();
 
-    if (playerChoice === computerChoice) {
+    if (playerChoice !== 'rock' && playerChoice !== 'paper' && playerChoice !== 'scissors') {
+    console.log('Invalid Choice! Please choose Rock, Paper or Scissors');
+    }
+
+    else if (playerChoice === computerChoice) {
         console.log("It's a Tie!");
     }
 
