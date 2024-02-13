@@ -28,4 +28,10 @@ const playRound = (playerChoice, computerChoice) => {
     else {console.log(`Computer Wins! ${computerChoice} beats ${playerChoice}`);}
 }
 
-playRound();
+const playGame = (playRound) => {
+    for (let i = 1; i <= 5 ; i++) {
+        playRound();
+    }
+}
+
+playGame(playRound);
