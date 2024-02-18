@@ -24,3 +24,12 @@ h1 {
   align-items: center;
   margin-top: 5rem;
 }
+
+.rpsBtn {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
