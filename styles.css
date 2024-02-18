@@ -3,3 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-image: url(./images/ultra-detailed-nebula-abstract-wallpaper-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+}
