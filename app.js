@@ -33,10 +33,6 @@ const playRound = (playerChoice, computerChoice) => {
   }
 };
 
-const playGame = (playRound) => {
-  for (let i = 1; i <= 5; i++) {
-    playRound();
-  }
-};
+const playGame = (playRound) => {};
 
 playGame(playRound);
